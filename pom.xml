@@ -11,8 +11,8 @@
     <groupId>com.example</groupId>
     <artifactId>spring_books_exercise</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring_books_exercise</name>
-    <description>spring_books_exercise</description>
+    <name>com.example.spring_books_exercise</name>
+    <description>com.example.spring_books_exercise</description>
     <properties>
         <java.version>11</java.version>
     </properties>
