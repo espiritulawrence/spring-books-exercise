@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/books")
+@RequestMapping("/books2")
 public class BookController {
 
     @Autowired
@@ -29,9 +29,10 @@ public class BookController {
     public Book getBookById(@PathVariable int id) {
         if (bookService.retrieveBooksById(id) == null) {
             throw new BookNotFoundException();
-        } else {
-
-        }return bookService.retrieveBooksById(id);
+        }
+        else {
+            return bookService.retrieveBooksById(id);
+        }
     }
 
     @PostMapping(value = "/", produces = "application/json")
